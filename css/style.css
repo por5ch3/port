@@ -200,7 +200,7 @@ html
         /* text-align: center; */
         height: 50px;
         width: 250px;
-        margin-left: 0px;
+        margin-left: 3px;
         margin-top: 50px;
         display: grid;
         row-gap: 30px;
@@ -280,7 +280,7 @@ html
         position:absolute;
         top:0; bottom:0; left:0;right:0;
         margin-top: 60px;
-        margin-left: 70px;
+        margin-left: 89px;
         border-radius:50%; 
     }
     
