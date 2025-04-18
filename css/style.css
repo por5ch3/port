@@ -10,6 +10,7 @@
 }
 
 
+
 .circle{
     width:50px;
     height:50px;
@@ -61,10 +62,10 @@ img {
 
 #mySidenav a {
 position: absolute;
-left: -80px;
+left: -100px;
 transition: 0.6s;
 padding: 15px;
-width: 100px;
+width: 110px;
 text-decoration: none;
 font-size: 17px;
 color: rgb(0, 0, 0);
@@ -79,22 +80,28 @@ left: 0;
 font-size: 10px;
 top: 20px;
 background-color: #328E6E;
+font-family: "Chonburi", serif;
 }
 
 #blog {
 top: 80px;
 background-color: #67AE6E;
+font-family: "Chonburi", serif;
 }
 
 #projects {
 top: 140px;
 background-color: #90C67C;
+font-family: "Chonburi", serif;
 }
 
 #contact {
 top: 200px;
 background-color: #E1EEBC;
+font-family: "Chonburi", serif;
 }
+
+
 html
 {
     background-color: #ae97d8;
@@ -103,6 +110,7 @@ html
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .glass-effect {
     background: rgba(255, 255, 255, 0.22);
     border-radius: 16px;
@@ -129,10 +137,9 @@ html
     /* text-align: center; */
     height: 80px;
     width: 400px;
-    margin-left: -510px;
+    margin-left: -505px;
     margin-top: 50px;
     display: grid;
-	row-gap: 30px;
     position: relative;
     
 
@@ -140,13 +147,71 @@ html
 
 }
 
+.glass-effect-2:hover {
+
+    transition: transform 1s, filter 2s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+.glass-effect-3 {
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 120px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(46, 203, 41, 0.829);
+    /* text-align: center; */
+    height: 80px;
+    width: 400px;
+    margin-left: -505px;
+    display: grid;
+    position: absolute;
+    margin-top: 30px;
+
+
+
+}
+
+.glass-effect-3:hover {
+
+    transition: transform 1s, filter 2s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+.glass-effect-4 {
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 120px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(46, 203, 41, 0.829);
+    /* text-align: center; */
+    height: 80px;
+    width: 400px;
+    margin-left: -505px;
+    display: grid;
+    position: absolute;
+    margin-top: 140px;
+
+
+
+}
+
+.glass-effect-4:hover {
+
+    transition: transform 1s, filter 2s ease-in-out;
+    transform: scale(1.2);
+}
+
 #id{
     text-align: center;
     color: black;
     font-size: larger;
     position: absolute;
-    top: 30%;
-    left: 105px;
+    top: 32%;
+    left: 115px;
     font-family: "Audiowide", sans-serif;
 
 
@@ -158,6 +223,8 @@ html
     z-index: 1;
     left: 20px;
   }
+
+
 
 /* Phone */
 @media (max-width: 600px) {
@@ -292,8 +359,4 @@ html
         position:absolute;
     }
 
-}
-
-
-    
 }
