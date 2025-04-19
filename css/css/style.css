@@ -503,7 +503,7 @@ html
 
 
 
-@media (max-height: 780px) { 
+@media (max-width: 780px) { 
 
 
 
@@ -639,7 +639,7 @@ html
 
     .dog{
         top:360px;
-        right: 44   0px;
+        right: 440px;
     
     }
 
