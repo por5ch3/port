@@ -79,24 +79,30 @@ left: 0;
 #about {
 font-size: 10px;
 top: 20px;
-background-color: #328E6E;
+background-color: #406661;
 font-family: "Chonburi", serif;
 }
 
 #blog {
 top: 80px;
-background-color: #67AE6E;
+background-color: #328E6E;
 font-family: "Chonburi", serif;
 }
 
 #projects {
 top: 140px;
-background-color: #90C67C;
+background-color: #67AE6E;
 font-family: "Chonburi", serif;
 }
 
 #contact {
 top: 200px;
+background-color: #90C67C;
+font-family: "Chonburi", serif;
+}
+
+#love {
+top: 260px;
 background-color: #E1EEBC;
 font-family: "Chonburi", serif;
 }
@@ -222,7 +228,138 @@ html
     height: auto;
     z-index: 1;
     left: 20px;
+}
+
+
+.dog {
+    top: 300px;
+    right: 670px;
+
+}
+
+
+/* .container {
+    display: grid;
+    column-gap: 200px;
+    grid-template-columns: auto auto auto;
+    margin-left: 135px;
+    margin-top: -500px;
+
+  
   }
+  
+  .container > div {
+
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+} */
+
+
+.yes {
+    width: 190px;
+    height: 80px;
+    background-color: #2ea81bfe;
+    margin-top: -150px;
+    margin-left: -300px;
+    border-radius:100px;
+
+
+}
+
+.no {
+    width: 190px;
+    height: 80px;
+    background-color: #a81b1bfe;
+    margin-top: -150px;
+    margin-right: -210px;
+    border-radius:100px;
+    position: absolute;
+
+
+}
+
+
+.big {
+    position: absolute;
+    top: 100px;
+    /* left: 410px; */
+    font-size: 80px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}
+
+.in_yes {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 55px;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+
+}
+
+.yes:hover {
+    transition: transform 1s, filter 2s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+.no:hover {
+    transition: transform 1s, filter 2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.hidden {
+    display: none;
+}
+
+
+.in_no {
+    top: -0px; 
+    font-family: "Audiowide", sans-serif;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.in_yes:link {
+    color: rgb(255, 177, 229);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+
+.typewriter h1 {
+    color: #fff;
+    font-family: "Audiowide", sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(0, 0, 0);
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+
 
 
 
@@ -358,5 +495,7 @@ html
         z-index: -1;
         position:absolute;
     }
+
+
 
 }
