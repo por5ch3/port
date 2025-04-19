@@ -232,7 +232,7 @@ html
 
 
 .dog {
-    top: 300px;
+    top: 320px;
     right: 670px;
 
 }
@@ -287,7 +287,11 @@ html
     /* left: 410px; */
     font-size: 80px;
     text-align: center;
-    font-family: "Audiowide", sans-serif;
+    /* ENG */
+    /* font-family: "Audiowide", sans-serif;  */
+
+    /* thai */
+     font-family: "Chonburi", serif; 
 }
 
 .in_yes {
@@ -335,7 +339,7 @@ html
 
 
 .typewriter h1 {
-    color: #fff;
+    color: #000000;
     font-family: "Audiowide", sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid rgb(0, 0, 0);
@@ -503,7 +507,8 @@ html
 
 
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width: 1024px)
+{
 
 
 
@@ -542,8 +547,7 @@ html
 
     .dog {
         top: 330px;
-        left: 390px;
-
+        right: 430px;
     }
 
     .big {
@@ -555,3 +559,4 @@ html
         font-family: "Audiowide", sans-serif;
     }
 }
+
