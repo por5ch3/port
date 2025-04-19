@@ -501,7 +501,26 @@ html
     }
 
 
+    .big {
+        position: absolute;
+        top: 100px;
+        /* left: 410px; */
+        font-size: 30px;
+        text-align: center;
+        /* ENG */
+        /* font-family: "Audiowide", sans-serif;  */
+    
+        /* thai */
+         font-family: "Chonburi", serif; 
+    }
+    
+    .dog {
+        top: 0px;
+        right: 0px;
+    
+    }
 
+   
 
 }
 
